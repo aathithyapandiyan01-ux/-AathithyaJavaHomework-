@@ -1,0 +1,22 @@
+class Armstrong1434 
+{
+ public static void main(String [] args)
+ {
+  int a = 1434;
+  int b = a%10;
+  int c = a/10;
+  int d = c%10;
+  int e = c/10;
+  int f = e%10;
+  int g = e/10;
+
+
+
+  int h = ((b*b*b*b)+(d*d*d*d)+(e*e*e*e)+ (g*g*g*g*));
+  boolean i = (h==a);
+
+ System.out.println ("Result : "+i);
+ }
+
+
+}
