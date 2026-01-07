@@ -6,7 +6,7 @@ class PrimeNumber
 		Scanner sc = new Scanner (System.in);
 		System.out.println("Type the number ");
 		int number = sc.nextInt();
-		if ( number % number == 0 && number % 1 == 0 )
+		if ( number % number == 0 && number % 1 == 0  && number % 2  
 		{
 			System.out.println("The given number is a prime number ");
 		}
